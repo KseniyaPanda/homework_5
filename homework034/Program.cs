@@ -10,7 +10,7 @@ int[] InitArray(int length)
 {
    int[] array = new int[length]; // объявляем новый массив
    Random rnd = new Random();
-   for (int i = 0; i < length; i++) // заполняем массив рандомными числами от -9 до 9
+   for (int i = 0; i < length; i++) // заполняем массив рандомными числами 
    {
       array[i] = rnd.Next(100, 1000);
    }
